@@ -1,0 +1,129 @@
+# NeuroviaI Data Analytics Platform — Dependencies
+# ================================================
+
+# Desktop UI
+PySide6>=6.6.0
+
+# Data Science
+pandas>=2.0.0
+numpy>=1.24.0
+scikit-learn>=1.3.0
+matplotlib>=3.7.0
+scipy>=1.11.0
+openpyxl>=3.1.0
+
+# ML Models
+xgboost>=2.0.0
+lightgbm>=4.0.0
+
+# LLM Client
+httpx>=0.25.0
+python-dotenv>=1.0.0
+
+# System
+psutil>=5.9.0
+
+# File format support
+openpyxl>=3.1.0
+pyarrow>=14.0.0
+dash-bootstrap-components>=1.5.0,<2.0.0
+
+# Database Support (Optional)
+sqlalchemy>=2.0.0,<3.0.0
+psycopg2-binary>=2.9.7,<3.0.0
+pymongo>=4.5.0,<5.0.0
+
+# Cloud Integration (Optional)
+boto3>=1.28.0,<2.0.0
+# google-cloud-storage>=2.10.0,<3.0.0  # Commented out - optional
+# azure-storage-blob>=12.18.0,<13.0.0  # Commented out - optional
+
+# API Development (Optional)
+fastapi>=0.103.0,<1.0.0
+uvicorn[standard]>=0.23.0,<1.0.0
+python-multipart>=0.0.6,<1.0.0
+aiofiles>=23.2.0,<24.0.0
+
+# Enhanced Visualization Backends
+kaleido>=0.2.1,<1.0.0
+# selenium>=4.11.0,<5.0.0  # Commented out - heavy dependency
+
+# Data Validation
+pandera>=0.17.0,<1.0.0
+# great-expectations>=0.17.0,<1.0.0  # Commented out - heavy dependency
+
+# Model Deployment & Serving (Optional)
+mlflow>=2.7.0,<3.0.0
+# bentoml>=1.1.0,<2.0.0  # Commented out - optional
+
+# Hyperparameter Optimization
+optuna>=3.4.0,<4.0.0
+hyperopt>=0.2.7,<1.0.0
+
+# Interpretability & Explainability
+shap>=0.42.0,<1.0.0
+lime>=0.2.0.1,<1.0.0
+# eli5>=0.13.0,<1.0.0  # Commented out - optional
+
+# Advanced Preprocessing
+scikit-optimize>=0.9.0,<1.0.0
+
+# Configuration Management
+pydantic>=2.0.0,<3.0.0
+python-dotenv>=1.0.0,<2.0.0
+
+# Logging & Monitoring
+loguru>=0.7.0,<1.0.0
+psutil>=5.9.5,<6.0.0
+
+# File Format Support
+pyarrow>=13.0.0,<15.0.0
+h5py>=3.9.0,<4.0.0
+tables>=3.8.0,<4.0.0
+
+# Geographic Data (Optional)
+# geopandas>=0.14.0,<1.0.0  # Commented out - optional
+# folium>=0.14.0,<1.0.0  # Commented out - optional
+
+# Image Processing (Optional)
+# opencv-python>=4.8.0,<5.0.0  # Commented out - optional
+# scikit-image>=0.21.0,<1.0.0  # Commented out - optional
+
+# Audio Processing (Optional)
+# librosa>=0.10.0,<1.0.0  # Commented out - optional
+# soundfile>=0.12.0,<1.0.0  # Commented out - optional
+
+# Mathematical Libraries
+sympy>=1.12.0,<2.0.0
+networkx>=3.1.0,<4.0.0
+
+# Parallel Computing
+dask>=2023.8.0,<2024.0.0
+# ray>=2.7.0,<3.0.0  # Commented out - not compatible with Python 3.11
+
+# Model Compression (Optional)
+# onnx>=1.14.0,<2.0.0  # Commented out - optional
+# onnxruntime>=1.15.0,<2.0.0  # Commented out - optional
+
+# Security
+cryptography>=41.0.0,<42.0.0
+
+# Version Control Integration
+gitpython>=3.1.32,<4.0.0
+
+# Game Interface
+pygame>=2.5.0,<3.0.0
+
+# Additional Requirements for Enhanced Features
+transformers>=4.34.0,<5.0.0
+sentence-transformers>=2.2.2,<3.0.0
+# flaml>=2.1.0,<3.0.0  # Commented out - AutoML optional
+pyyaml>=6.0.1,<7.0.0
+# plotly-orca==1.3.1  # Commented out - deprecated
+# pyvista>=0.42.0,<1.0.0  # Commented out - optional 3D visualization
+# uvloop>=0.17.0,<1.0.0  # Commented out - Unix only
+aiohttp>=3.8.5,<4.0.0
+
+# Note: Some heavy/optional packages are commented out to ensure compatibility
+# Uncomment them if needed for specific features
+# For a minimal installation, use only the core packages above

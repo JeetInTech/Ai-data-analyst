@@ -1,0 +1,330 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# C extensions
+*.so
+
+# Distribution / packaging
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+share/python-wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+PIPFILE.lock
+
+# PyInstaller
+*.manifest
+*.spec
+
+# Installer logs
+pip-log.txt
+pip-delete-this-directory.txt
+
+# Unit test / coverage reports
+htmlcov/
+.tox/
+.nox/
+.coverage
+.coverage.*
+.cache
+nosetests.xml
+coverage.xml
+*.cover
+*.py,cover
+.hypothesis/
+.pytest_cache/
+cover/
+
+# Translations
+*.mo
+*.pot
+
+# Django stuff:
+*.log
+local_settings.py
+db.sqlite3
+db.sqlite3-journal
+
+# Flask stuff:
+instance/
+.webassets-cache
+
+# Scrapy stuff:
+.scrapy
+
+# Sphinx documentation
+docs/_build/
+
+# PyBuilder
+.pybuilder/
+target/
+
+# Jupyter Notebook
+.ipynb_checkpoints
+
+# IPython
+profile_default/
+ipython_config.py
+
+# pyenv
+.python-version
+
+# pipenv
+Pipfile.lock
+
+# poetry
+poetry.lock
+
+# pdm
+.pdm.toml
+
+# PEP 582
+__pypackages__/
+
+# Celery stuff
+celerybeat-schedule
+celerybeat.pid
+
+# SageMath parsed files
+*.sage.py
+
+# Environments
+.env
+.venv
+env/
+venv/
+ENV/
+env.bak/
+venv.bak/
+
+# Spyder project settings
+.spyderproject
+.spyproject
+
+# Rope project settings
+.ropeproject
+
+# mkdocs documentation
+/site
+
+# mypy
+.mypy_cache/
+.dmypy.json
+dmypy.json
+
+# Pyre type checker
+.pyre/
+
+# pytype static type analyzer
+.pytype/
+
+# Cython debug symbols
+cython_debug/
+
+# PyCharm
+.idea/
+*.iml
+*.iws
+.idea_modules/
+
+# VS Code
+.vscode/
+*.code-workspace
+
+# Sublime Text
+*.sublime-project
+*.sublime-workspace
+
+# Eclipse
+.project
+.pydevproject
+.settings/
+
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+._*
+
+# Windows
+Thumbs.db
+Thumbs.db:encryptable
+ehthumbs.db
+ehthumbs_vista.db
+*.stackdump
+[Dd]esktop.ini
+$RECYCLE.BIN/
+*.cab
+*.msi
+*.msix
+*.msm
+*.msp
+*.lnk
+
+# Linux
+*~
+.fuse_hidden*
+.directory
+.Trash-*
+.nfs*
+
+# Project-specific: AI Analytics Storage
+ai_analytics_sessions/
+ai_analytics_storage/sessions/
+ai_analytics_storage/cache/
+ai_analytics_storage/logs/
+ai_analytics_storage/models/
+ai_analytics_storage/exports/
+ai_analytics_storage/visualizations/
+ai_analytics_storage/datasets/
+
+# Project-specific: Saved Models
+saved_models/
+*.pkl
+*.joblib
+*.h5
+*.hdf5
+*.pb
+*.ckpt
+*.pth
+*.pt
+
+# Project-specific: Explainability Outputs
+explainability_outputs/
+
+# Project-specific: Temporary data
+*.csv.tmp
+*.json.tmp
+*.npy
+*.npz
+
+# Project-specific: Large datasets (uncomment if you don't want to track)
+# *.csv
+# *.xlsx
+# *.xls
+# *.parquet
+
+# Tensorboard logs
+runs/
+logs/
+tensorboard/
+
+# Weights & Biases
+wandb/
+
+# MLflow
+mlruns/
+
+# Model artifacts
+artifacts/
+checkpoints/
+
+# Data files (large)
+*.hdf
+*.h5
+*.feather
+
+# Pickle files (can be regenerated)
+*.pickle
+
+# Compressed files
+*.zip
+*.tar
+*.tar.gz
+*.rar
+*.7z
+
+# Image files (if generated)
+*.png
+*.jpg
+*.jpeg
+*.gif
+*.bmp
+*.tiff
+*.ico
+
+# Video files
+*.mp4
+*.avi
+*.mov
+*.wmv
+
+# Audio files
+*.mp3
+*.wav
+*.flac
+
+# Backup files
+*.bak
+*.backup
+*.swp
+*.swo
+*~
+
+# Temporary files
+*.tmp
+*.temp
+temp/
+tmp/
+
+# OS generated files
+*.dmp
+*.trace
+
+# Database files
+*.db
+*.sqlite
+*.sqlite3
+
+# Configuration files with secrets (be careful!)
+# config.ini
+# secrets.json
+# .env.local
+
+# Node modules (if any JS dependencies)
+node_modules/
+package-lock.json
+yarn.lock
+
+# R files (if using R)
+.Rhistory
+.RData
+.Rproj.user
+
+# Profiling
+*.prof
+*.lprof
+
+# Coverage
+.coverage.*
+htmlcov/
+
+# Documentation builds
+docs/_build/
+docs/_static/
+docs/_templates/
+
+# Virtual environment markers
+pyvenv.cfg
+
+# JetBrains IDEs
+.idea/
+*.iml
+
+# Project-specific knowledge base
+# Uncomment if you don't want to track this
+# ai_analytics_storage/agent_knowledge_base.json
