@@ -64,8 +64,8 @@ Agents try providers in priority order with automatic fallback:
 
 ```bash
 # Clone the repository
-git clone https://github.com/YOUR_USERNAME/YOUR_REPO.git
-cd YOUR_REPO
+git clone https://github.com/JeetInTech/Ai-data-analyst.git
+cd Ai-data-analyst
 
 # Create virtual environment
 python -m venv venv
